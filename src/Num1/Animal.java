@@ -10,7 +10,7 @@ package Num1;
  *
  * @author ifnmg
  */
-public class Animal {
+public abstract class Animal {
     private String nome;
     
     public Animal(String n){    
@@ -29,6 +29,5 @@ public class Animal {
         System.out.println("Nome: " + getNome());
     }
     
-    public void talk(){
-    }
+    public abstract void talk(); 
 }

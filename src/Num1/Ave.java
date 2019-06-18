@@ -9,7 +9,7 @@ package Num1;
  *
  * @author ifnmg
  */
-public class Ave extends Animal{
+public abstract class Ave extends Animal{
     private boolean voa;
     
     public Ave(String n, boolean v){
